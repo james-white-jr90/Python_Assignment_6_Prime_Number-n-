@@ -1,0 +1,13 @@
+n=int(input("Enter a number:"))
+primelist=[]
+primelist_new=[]
+for i in range (2,n)
+    if i > 2:
+        primelist=[]
+        for j in range (2,i)
+            if i%j==0:
+                primelist.append(i)
+                break
+    if len  (primelist) == 0:
+        primelist_new.append(i)
+print(primelist_new)
